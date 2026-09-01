@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e4f07edc03c183a9d5ad87863cee8a4e25b94343bd3c04fef69bc1d3d83a7814
-size 184
+{
+  "_from_model_config": true,
+  "bos_token_id": 0,
+  "decoder_start_token_id": 2,
+  "eos_token_id": 2,
+  "max_length": 200,
+  "pad_token_id": 1,
+  "transformers_version": "4.57.6"
+}
