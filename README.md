@@ -30,7 +30,7 @@ This repository contains the `TranslateModel` project. Follow the instructions b
 
 5. **Run the model:**
    Once the environment is set up and activated, you can run the test script:
-
+   
    ```bash
    python test_model.py
    ```
