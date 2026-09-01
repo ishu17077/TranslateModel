@@ -26,7 +26,9 @@ This repository contains the `TranslateModel` project. Follow the instructions b
    uv sync
    ```
 
-4. **Run the model:**
+4. **Download Quantized Model from releases page**
+
+5. **Run the model:**
    Once the environment is set up and activated, you can run the test script:
 
    ```bash
