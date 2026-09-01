@@ -58,6 +58,9 @@ dependencies = [
     "nvidia-nvjitlink==13.3.33",
     "nvidia-nvshmem-cu13==3.4.5",
     "nvidia-nvtx==13.0.85",
+    "onnxruntime>=1.29.0",
+    "onnxruntime-gpu>=1.29.0",
+    "optimum[onnxruntime]>=2.3.0",
     "packaging==26.3",
     "pandas==3.0.5",
     "pip==26.2.1",
@@ -100,8 +103,11 @@ dependencies = [
     "wheel==0.48.0",
 ]
 
+[tool.setuptools]
+packages = ["qwen_model", "indictrans2_model", "IndicTransToolkit", "it2_quantized_int8"]
+
 [project.scripts]
 run-script = "test_model:run_translation"
 
 [tool.uv]
-package = false
+package = true
