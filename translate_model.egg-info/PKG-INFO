@@ -1,3 +1,48 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:61595752dec8a0c62b2f3422ef84c08a31a990a3f9ff7401cb65bc7a6e54e519
-size 4140
+Metadata-Version: 2.4
+Name: translate-model
+Version: 0.1.0
+Summary: Translation model
+Author-email: Your Name <you@example.com>
+Requires-Python: ==3.11.16
+Description-Content-Type: text/markdown
+Requires-Dist: onnx>=1.22.0
+Requires-Dist: optimum[onnxruntime]>=2.1.0
+Requires-Dist: torch>=2.14.0
+Requires-Dist: transformers>=4.57.6
+
+# TranslateModel
+
+This repository contains the `TranslateModel` project. Follow the instructions below to set up the environment and run the model.
+
+## Setup Instructions
+
+1. **Create a virtual environment:**
+   We recommend using `uv` to manage the environment. You can create the `.venv` folder by running:
+
+   ```bash
+   uv venv
+   ```
+
+   *(Alternatively, you can use `python -m venv .venv`)*
+
+2. **Activate the virtual environment:**
+
+   ```bash
+   source .venv/bin/activate
+   ```
+
+3. **Install dependencies:**
+   Sync and install the project dependencies using `uv`:
+
+   ```bash
+   uv sync
+   ```
+
+4. **Download Quantized Model from releases page**
+
+5. **Run the model:**
+   Once the environment is set up and activated, you can run the test script:
+   
+   ```bash
+   python test_model.py
+   ```

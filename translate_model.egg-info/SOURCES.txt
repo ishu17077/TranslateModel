@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4b2b02db819c8d45620cda0b475d40407414111a6641d42a6d8dfe27121d498d
-size 419
+README.md
+pyproject.toml
+IndicTransToolkit/setup.py
+indictrans2_model/configuration_indictrans.py
+indictrans2_model/modeling_indictrans.py
+indictrans2_model/tokenization_indictrans.py
+translate_model.egg-info/PKG-INFO
+translate_model.egg-info/SOURCES.txt
+translate_model.egg-info/dependency_links.txt
+translate_model.egg-info/entry_points.txt
+translate_model.egg-info/requires.txt
+translate_model.egg-info/top_level.txt

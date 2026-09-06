@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:16729cb23d5bef6e667423e0a0d7f9a70c3d98928bb133d346d5b24667c2acea
-size 1821
+onnx>=1.22.0
+optimum[onnxruntime]>=2.1.0
+torch>=2.14.0
+transformers>=4.57.6

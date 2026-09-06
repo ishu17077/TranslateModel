@@ -9,7 +9,6 @@ model_files = [
     "encoder_model.onnx",
     "decoder_model.onnx",
     "decoder_with_past_model.onnx",
-    "decoder_with_past_model.onnx_data"
 ]
 
 for file_name in model_files:
@@ -28,7 +27,9 @@ for file_name in model_files:
             quantize_dynamic(
                 model_input=str(input_path),
                 model_output=str(output_path),
-                weight_type=QuantType.QInt8
+                weight_type=QuantType.QInt8,
+                per_channel=True,              
+                use_external_data_format=True
             )
         except Exception as e:
             print(f"Error quantizing {file_name}: {e}")
